@@ -12,63 +12,6 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
-/*For the hamburger btn without a nav yet*//*
-.menu-btn
-{
-    position: relative;
-    width: 5em;
-    height: 5em;
-    transition: all 0.5s ease-in-out;
-    border: 3px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.menu-burger
-{
-    width: 3em;
-    height: 0.3em;
-    background: blue;
-    border-radius: 0.2em;
-    box-shadow: 0 0.2em 0.3em rgba(255, 101, 47, 0.2);
-    transition: all 0.5s ease-in-out;
-
-}
-.menu-burger::before,
-.menu-burger::after
-{
-    content: "";
-    position: absolute;width: 3em;
-    height: 0.3em;
-    background: blue;
-    border-radius: 0.2em;
-    box-shadow: 0 0.2em 0.3em rgba(255, 101, 47, 0.2);
-    transition: all 0.5s ease-in-out;
-
-}
-.menu-burger::before
-{
-    transform: translateY(-1em);
-}
-.menu-burger::after
-{
-    transform: translateY(1em);
-}
-/*Animation*//*
-.menu-btn.open .menu-burger
-{
-    transform: translateX(-3em);
-    background: transparent;
-    box-shadow: none;
-}
-.menu-btn.open .menu-burger::before
-{
-    transform: rotate(45deg) translate(2.2em, -2.2em);
-}
-.menu-btn.open .menu-burger::after
-{
-    transform: rotate(-45deg) translate(2.2em, 2.2em);
-}*/
 .hero-image
 {
     position: relative;
@@ -312,7 +255,7 @@ span a
     height: 300px;
     top:-3.5em;
     left:1.5em;
-    z-index: 1; /*to set above card to give a 3d like look*/
+    z-index: 1;
     box-shadow: 0 0.4em 1.5em rgba(0, 0, 0, 0.5) ;
     
 
@@ -325,7 +268,7 @@ span a
 .panel-one .card .content
 {
     position: relative;
-    margin-top: -9.5em;/*to hide th text so users can hover to the  bring it out*/
+    margin-top: -9.5em;
     padding: 1em;
     text-align: center;
     visibility: hidden;
